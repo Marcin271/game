@@ -1,1 +1,1 @@
-# game
+# Game like osu :)

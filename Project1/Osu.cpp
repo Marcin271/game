@@ -61,10 +61,10 @@ int Osu::check_key() {
 	int a = 0;
 	clock_t start=clock();
 	while (true) {
-		if (GetKeyState('Z') & 0x8000)a = 1;
-		if (GetKeyState('X') & 0x8000)a = 2;
-		if (GetKeyState('N') & 0x8000)a = 3;
-		if (GetKeyState('M') & 0x8000)a = 4;
+		if (GetKeyState('Q') & 0x8000)a = 1;
+		if (GetKeyState('W') & 0x8000)a = 2;
+		if (GetKeyState('O') & 0x8000)a = 3;
+		if (GetKeyState('P') & 0x8000)a = 4;
 		if (((double)(clock() - start) / CLOCKS_PER_SEC)>0.5)return a;
 	}
 }
